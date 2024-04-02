@@ -1,11 +1,11 @@
 
-import Chiya from "./chiya"
+import Intro from "./intro"
 function App() {
 
 
   return (
     <>
-   <Chiya/>
+   <Intro/>
    <h3>Himalaya College of Engineering</h3>
    <p>I am a BCA Student.</p>
    </>
