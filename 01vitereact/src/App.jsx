@@ -1,10 +1,14 @@
 
-
+import Chiya from "./chiya"
 function App() {
 
 
   return (
-   <h1>krishna Bahadur Thapa</h1>
+    <>
+   <Chiya/>
+   <h3>Himalaya College of Engineering</h3>
+   <p>I am a BCA Student.</p>
+   </>
   )
 }
 
