@@ -1,0 +1,50 @@
+Document Object Model (DOM)
+html :- html ma Dom mainpulation dheri hunxa
+Diffing :- Diffing vannea ko duita virtual DOM ko bich ko diference
+Reconciliation :- Reconciliation vaneako chae j diffing garda difference aayo teslai lageraw real DOM ma halney process
+
+
+React project Setup
+1. Vite (small to medium project) - faster than CRA
+2. Create-React-app(CRA) (Large project)
+3. CDN (manually make a project)
+
+
+npm :- for install
+npx:- for execution
+ 
+create vite project :- 
+- npm create vite@latest
+
+To install project
+-npm install 
+
+To run project 
+- npm run dev
+
+Transpilation:- one version to another version of same language
+Traspiler:- babel
+ 
+Compilation:- yeti purae langauage nahi change vayiraxa vaney
+compiler
+
+React router DOM
+-npm install react-router-Dom // to install react router DOM
+-BrowserRouter,Routes,Route
+
+Components
+
+Props 
+
+Default Props
+
+Props types 
+- npm install prop-types
+
+
+HOOKs:
+- Alredy banayerw rakheko function
+- useEffect, useState, useReducer, useRef
+
+useState:
+-
