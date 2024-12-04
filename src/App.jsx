@@ -4,6 +4,7 @@ import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import Home from './Home'
 import About from './about'
 import Contact from './Contact'
+import UseEffect from './UseEffect'
 
 
 
@@ -16,7 +17,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/about" element={<About />}/>
-        <Route path="/contact" element={<Contact />}/>      
+        <Route path="/contact" element={<Contact />}/>   
+        <Route path="/useeffect" element={<UseEffect />}/>
       </Routes>
     </BrowserRouter>
     </>

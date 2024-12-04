@@ -47,4 +47,26 @@ HOOKs:
 - useEffect, useState, useReducer, useRef
 
 useState:
--
+-syntax:
+    const[count,setcount] = useState(0)
+
+useEffect:
+-Tio handle the side-Effect
+
+UseEffect 3 types on th basis of execution
+1. Exceutes on initial rende, first time page
+render huda or load huda 
+
+UseEffect(()->{
+},[])
+
+2.Exceutes on the initial render + when dependency array value changes 
+(first load ma pani executes huncha rw dependency array ko state)
+
+useEffect(()=>{
+}[State1,State2])
+
+3.Exceutes on every re render
+UseEffect(()=?{
+    
+})
